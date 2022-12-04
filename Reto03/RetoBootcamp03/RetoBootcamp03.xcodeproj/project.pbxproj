@@ -13,6 +13,11 @@
 		2FCFD17C293CAAE700B0BFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFD17A293CAAE700B0BFE2 /* Main.storyboard */; };
 		2FCFD17E293CAAE800B0BFE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFD17D293CAAE800B0BFE2 /* Assets.xcassets */; };
 		2FCFD181293CAAE800B0BFE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCFD17F293CAAE800B0BFE2 /* LaunchScreen.storyboard */; };
+		2FCFD189293CAF0A00B0BFE2 /* PrincipalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFD188293CAF0A00B0BFE2 /* PrincipalTableViewController.swift */; };
+		2FCFD18B293CAF6300B0BFE2 /* FormularioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFD18A293CAF6300B0BFE2 /* FormularioTableViewController.swift */; };
+		2FCFD18D293CAF8D00B0BFE2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFD18C293CAF8D00B0BFE2 /* CustomTableViewCell.swift */; };
+		2FCFD18F293CAFBE00B0BFE2 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFD18E293CAFBE00B0BFE2 /* DetalleViewController.swift */; };
+		2FCFD191293CAFF200B0BFE2 /* Descripcion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFD190293CAFF200B0BFE2 /* Descripcion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2FCFD17D293CAAE800B0BFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FCFD180293CAAE800B0BFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FCFD182293CAAE800B0BFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCFD188293CAF0A00B0BFE2 /* PrincipalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalTableViewController.swift; sourceTree = "<group>"; };
+		2FCFD18A293CAF6300B0BFE2 /* FormularioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioTableViewController.swift; sourceTree = "<group>"; };
+		2FCFD18C293CAF8D00B0BFE2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2FCFD18E293CAFBE00B0BFE2 /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		2FCFD190293CAFF200B0BFE2 /* Descripcion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Descripcion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				2FCFD17D293CAAE800B0BFE2 /* Assets.xcassets */,
 				2FCFD17F293CAAE800B0BFE2 /* LaunchScreen.storyboard */,
 				2FCFD182293CAAE800B0BFE2 /* Info.plist */,
+				2FCFD188293CAF0A00B0BFE2 /* PrincipalTableViewController.swift */,
+				2FCFD18A293CAF6300B0BFE2 /* FormularioTableViewController.swift */,
+				2FCFD18C293CAF8D00B0BFE2 /* CustomTableViewCell.swift */,
+				2FCFD18E293CAFBE00B0BFE2 /* DetalleViewController.swift */,
+				2FCFD190293CAFF200B0BFE2 /* Descripcion.swift */,
 			);
 			path = RetoBootcamp03;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCFD18F293CAFBE00B0BFE2 /* DetalleViewController.swift in Sources */,
+				2FCFD18D293CAF8D00B0BFE2 /* CustomTableViewCell.swift in Sources */,
+				2FCFD18B293CAF6300B0BFE2 /* FormularioTableViewController.swift in Sources */,
 				2FCFD179293CAAE700B0BFE2 /* ViewController.swift in Sources */,
 				2FCFD175293CAAE700B0BFE2 /* AppDelegate.swift in Sources */,
+				2FCFD189293CAF0A00B0BFE2 /* PrincipalTableViewController.swift in Sources */,
 				2FCFD177293CAAE700B0BFE2 /* SceneDelegate.swift in Sources */,
+				2FCFD191293CAFF200B0BFE2 /* Descripcion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
